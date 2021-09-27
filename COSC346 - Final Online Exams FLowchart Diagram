@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T19:07:40.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="gySwEPQxj_dhhsmvvzQD" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T19:11:48.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="Ch-IBJK-vXJQYbAC-1EM" version="15.3.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="868" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,13 +11,13 @@
           <mxGeometry x="240.5" y="130" width="199.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4" value="enter password" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
+          <mxGeometry x="240.5" y="610" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" value="enter student ID" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="250" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6" value="is valid and unblocked?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="380" width="150" height="80" as="geometry" />
+          <mxGeometry x="245" y="420" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -47,7 +47,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="14" value="yes" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
-          <mxGeometry x="310" y="460" width="40" height="26" as="geometry" />
+          <mxGeometry x="320" y="509" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="4" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XQzDRzI_ZHU04ZnOzMox-60" value="display message&lt;br&gt;about invalid password" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="509" width="150" height="81" as="geometry" />
+          <mxGeometry x="510" y="609" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="XQzDRzI_ZHU04ZnOzMox-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=#001933;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XQzDRzI_ZHU04ZnOzMox-60" target="4">
           <mxGeometry x="124.5" y="40" width="100" height="100" as="geometry">
@@ -111,6 +111,12 @@
             <mxPoint x="319.5" y="1300" as="sourcePoint" />
             <mxPoint x="319.5" y="1351.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XQzDRzI_ZHU04ZnOzMox-66" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XQzDRzI_ZHU04ZnOzMox-67" value="authenticate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="281" y="370" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
